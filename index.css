@@ -7,5 +7,43 @@
         color: white;
         width: 100%;
         background-color:black;
-     
-      }
+     }
+*{
+    padding: 0px;
+	margin: 30px;
+    width: 70vw;
+	box-sizing: border-box;
+
+
+}
+
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+}
+.main > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+	width: 50vw;
+	margin-top: 5px;
+	padding: 5px;
+    /* flex-direction: row; */
+    
+}
+.title > a{
+    list-style-type: none;
+    text-decoration: none;
+    color: brown;
+}
+
